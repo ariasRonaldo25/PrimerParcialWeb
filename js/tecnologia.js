@@ -1,5 +1,5 @@
 function cargarJson() {
-    var url = "http://demo6497253.mockable.io/categoria/tecnologia";
+    var url = "https://carlosreneas.github.io/endpoints/categoria_tecnologia.json";
 
     fetch(url)
         .then(response => response.json())
